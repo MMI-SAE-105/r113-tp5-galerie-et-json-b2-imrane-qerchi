@@ -15,7 +15,7 @@
             return await resp.json();
         },
     }">
-        <template x-for="const obj of données">
+        <template x-for="obj in données">
             <li>
                 <span x-text="obj.nom">nom</span> :
                 <a x-text="obj.url" x-text="obj.projet">
