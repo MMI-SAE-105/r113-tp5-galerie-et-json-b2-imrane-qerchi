@@ -12,7 +12,9 @@
 }">
     <h1>Galerie</h1>
 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis similique natus, deleniti laudantium hic velit voluptas molestias delectus ullam fuga dicta pariatur reiciendis exercitationem autem eveniet cumque architecto dolore blanditiis.</p>
-<div class="overlay" x-show="Apagnan !== null && Apagnan !== ''">
+<div class = "overlay"
+    x-show = "Apagnan"
+    @click = "Apagnan = null">
     <figure><img :src="Apagnan" alt="image 237... un chiot"></figure>
 </div>
 </body>
